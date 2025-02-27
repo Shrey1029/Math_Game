@@ -1,0 +1,45 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MathGame" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryAccent</item>
+        <item name="colorPrimaryVariant">@color/primaryAccent</item>
+        <item name="colorSecondary">@color/secondaryAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Base.Theme.Gamepage" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <!-- Customize your light theme here. -->
+    <item name="colorPrimary">@color/primaryAccent</item>
+    <item name="colorPrimaryVariant">@color/primaryAccent</item>
+    <item name="colorSecondary">@color/secondaryAccent</item>
+    <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="Theme.Result" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/Ice_blue</item>
+        <item name="colorPrimaryVariant">@color/Ice_blue</item>
+        <item name="colorSecondary">@color/secondaryAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+    <style name="PrimaryButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/primaryButtonBackground</item>
+        <item name="android:textColor">@color/primaryButtonText</item>
+    </style>
+
+    <style name="SecondaryButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/secondaryButtonBackground</item>
+        <item name="android:textColor">@color/secondaryButtonText</item>
+    </style>
+
+    <style name="AccentButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/secondaryAccent</item>
+        <item name="android:textColor">@color/primaryButtonText</item>
+    </style>
+    <style name="Theme.MathGame" parent="Base.Theme.MathGame" />
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/first"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonadd"
+        style="@style/PrimaryButtonStyle"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="90dp"
+        android:text="Addition"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonmultiply"
+        style="@style/SecondaryButtonStyle"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="70dp"
+        android:text="Multiplication"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttonsub"
+        style="@style/AccentButtonStyle"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="70dp"
+        android:text="Subtraction"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/buttondiv"
+        style="@style/AccentButtonStyle"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/design_default_color_primary"
+        android:text="Division"
+        android:textSize="22sp" />
+</LinearLayout>
