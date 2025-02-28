@@ -58,5 +58,5 @@ git clone https://github.com/Shrey1029/math-game.git
 
 For any suggestions or issues, feel free to reach out!
 
-📧 Email: shreysingh1029@.com🔗 GitHub Issues
+📧 Email: shreysingh1029@gmail.com🔗 GitHub Issues
 
